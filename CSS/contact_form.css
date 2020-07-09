@@ -1,0 +1,8 @@
+body {
+    color: blue;
+}
+
+#main {
+    margin-top: 2vh;
+    border: blue 1pt solid;
+}
