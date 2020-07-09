@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Import font */
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
@@ -109,4 +110,117 @@ body {
 /* Extra large devices (large desktops, 1200px and up) */
 
 
+=======
+/* Import font */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
+
+/* Set body styles */
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    color: #053166;
+}
+
+
+/* Navbar Styling */
+
+.img-thumbnail {
+    background-color: transparent;
+    border: none;
+}
+
+#navbar-container {
+    background-color: #053166;
+}
+
+.navbar {
+    padding: .8rem;
+}
+
+.navbar-brand img {
+    height: 4rem;
+}
+
+.navbar-nav li {
+    padding-right: 1.1rem;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.nav-link:hover,
+.nav-link.active {
+    border-bottom: .1rem solid #2763AA;
+}
+
+#social-nav .nav-link:hover {
+    border: none;
+}
+
+
+/* Button styling */
+
+.btn {
+    font-weight: 500;
+    border-width: medium;
+}
+
+
+/* Footer */
+
+.footer {
+    background: #053166;
+    color: yellow;
+}
+
+.footer h4 {
+    text-align: center;
+}
+
+.footer p {
+    text-align: center;
+}
+
+
+/* Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+// Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 400px) {}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (max-width: 768px) {
+    #boots {
+        display: none;
+    }
+}
+
+
+/* Large devices (desktops, 1024px and up) */
+
+@media (min-width: 1024px) {}
+
+@media (max-width: 1024px) {
+    .nav-link {
+        font-size: 1rem;
+        font-weight: 500;
+    }
+    #social-nav {
+        display: none;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+
+>>>>>>> ac713cebdca00fd4a367deb6286b9bac69a00c7b
 /*   @media (min-width: 1200px) {}

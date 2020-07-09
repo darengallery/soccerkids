@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Import font */
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
@@ -21,4 +22,29 @@ body {
 #main {
     background: lightblue;
     margin-top: 2vh;
+=======
+/* Import font */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,700');
+
+/* Set body styles */
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-image: url(/img/green_tactics_board.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#main {
+    background: lightblue;
+    margin-top: 2vh;
+>>>>>>> ac713cebdca00fd4a367deb6286b9bac69a00c7b
 }

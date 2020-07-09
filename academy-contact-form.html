@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
 
@@ -132,4 +133,140 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js " integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin=" anonymous "></script>
 
 
+=======
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta Tags for Bootstrap 4 -->
+    <title>Contact</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Daren Gallery">
+    <meta name="description" content="Soccer coaching programmes for schools, teams and clubs. Qualified Coaches, all specifically tailored to your needs">
+    <!-- Bootstrap 4 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/academy-contact-form.css">
+
+    <script src="https://kit.fontawesome.com/dee6c1b213.js" crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+    <div class="container" id="contact-section">
+        <div class="row">
+            <div class="col-md-8 mx-auto" id="main">
+                <h1>Academy Registration Form</h1>
+                <div class="messages float-right pr-5">* required</div>
+
+                <form id="contact-form" method="post" action="/PHP/sendmail.php" role="form"><br>
+                    <div class="controls">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_name">Parent/Guardian Name *</label>
+                                    <input id="form_name" type="text" name="name" class="form-control" max="2014" min="2002" placeholder="Please enter parent/guardian name" required="required" data-error="parent name is required">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_playersName">Players name *</label>
+                                    <input id="form_playersName" type="text" name="playersName" class="form-control" placeholder="Please enter players name" required="required" data-error="players name is required">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_gender">Players gender</label><br>
+                                    <input type="radio" name="gender" value="female">Female
+                                    <input type="radio" name="gender" value="male">Male
+                                    <input type="radio" name="gender" value="other">Other
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_dob">Players Date of birth *</label>
+                                    <input id="form_dob" type="date" min="2002-01-01" max="2015-01-01" name="dob" class="form-control" required="required" data-error="date of birth is required">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <label for="address">Address *</label>
+                                <input type="text" id="form_address" name="address" class="form-control" placeholder="Please enter your address" required="required" data-error="an address is required">
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_email">Email address *</label>
+                                    <input type="email" id="form_email" name="email" class="form-control" placeholder="Please enter your email" required="required" data-error="valid email is required">
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_homephone">Home telephone </label>
+                                <input type="tel" id="form_homephone" name="homephone" class="form-control" placeholder="If applicable">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_contactphone">Contact telephone *</label>
+                                <input type="tel" id="form_contactphone" name="contactphone" class="form-control" placeholder="Please enter main contact number" required="required" data-error="contact number is required">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                    </div><br>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_medical">Medical/Allergies </label>
+                                <textarea name="medical" id="form_medical" class="form-control" placeholder="any medical conditions or allergies" rows="4"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_message">Any other information </label>
+                                <textarea name="message" id="form_message" class="form-control" placeholder="any other information" rows="4"></textarea>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row"></div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="radio">
+                                <label for="form_group" class="text-bold">Permission to administer First-Aid *</label><br>
+                                <label><input type="radio" name="optradio" required="required" data-error="First Aid must be allowed or denied">Yes</label><br>
+                                <label><input type="radio" name="optradio" required="required" data-error="First Aid must be allowed or denied">No</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="submit" class="btn btn-secondary btn-send" value=" Send form ">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js "></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/1000hz-bootstrap-validator/0.11.9/validator.min.js " integrity="sha256-dHf/YjH1A4tewEsKUSmNnV05DDbfGN3g7NMq86xgGh8=" crossorigin=" anonymous "></script>
+
+
+>>>>>>> ac713cebdca00fd4a367deb6286b9bac69a00c7b
 </body>

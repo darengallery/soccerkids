@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     color: blue;
 }
@@ -5,4 +6,13 @@ body {
 #main {
     margin-top: 2vh;
     border: blue 1pt solid;
+=======
+body {
+    color: blue;
+}
+
+#main {
+    margin-top: 2vh;
+    border: blue 1pt solid;
+>>>>>>> ac713cebdca00fd4a367deb6286b9bac69a00c7b
 }
